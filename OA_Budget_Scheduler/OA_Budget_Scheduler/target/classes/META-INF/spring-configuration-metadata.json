@@ -1,0 +1,77 @@
+{
+  "groups": [
+    {
+      "name": "datasource.oracle.jie",
+      "type": "com.mashreq.oa.configuration.JIEDataSourceConfig",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "scheduler",
+      "type": "com.mashreq.oa.configuration.SchedulerConfig",
+      "sourceType": "com.mashreq.oa.configuration.SchedulerConfig"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "com.mashreq.oa.configuration.DataSourceConfig",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "datasource.oracle.jie.driver",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "datasource.oracle.jie.password",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "datasource.oracle.jie.url",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "datasource.oracle.jie.username",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "scheduler.process-payment-request-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashreq.oa.configuration.SchedulerConfig"
+    },
+    {
+      "name": "scheduler.sending-status-mail-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashreq.oa.configuration.SchedulerConfig"
+    },
+    {
+      "name": "scheduler.update-budget-details-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashreq.oa.configuration.SchedulerConfig"
+    },
+    {
+      "name": "spring.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    },
+    {
+      "name": "spring.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    }
+  ],
+  "hints": []
+}

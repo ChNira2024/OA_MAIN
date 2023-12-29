@@ -1,0 +1,80 @@
+{
+  "groups": [
+    {
+      "name": "datasource.oracle.jie",
+      "type": "com.mashreq.oa.configuration.JIEDataSourceConfig",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "oracle",
+      "type": "com.mashreq.oa.configuration.DataSourceConfig",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    },
+    {
+      "name": "scheduler",
+      "type": "com.mashreq.oa.configuration.SchedulerConfig",
+      "sourceType": "com.mashreq.oa.configuration.SchedulerConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "datasource.oracle.jie.driver",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "datasource.oracle.jie.password",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "datasource.oracle.jie.url",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "datasource.oracle.jie.username",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.JIEDataSourceConfig"
+    },
+    {
+      "name": "oracle.driver",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    },
+    {
+      "name": "oracle.password",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    },
+    {
+      "name": "oracle.url",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    },
+    {
+      "name": "oracle.username",
+      "type": "java.lang.String",
+      "sourceType": "com.mashreq.oa.configuration.DataSourceConfig"
+    },
+    {
+      "name": "scheduler.process-payment-request-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashreq.oa.configuration.SchedulerConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "scheduler.sending-status-mail-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashreq.oa.configuration.SchedulerConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "scheduler.update-budget-details-interval",
+      "type": "java.lang.Long",
+      "sourceType": "com.mashreq.oa.configuration.SchedulerConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
